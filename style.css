@@ -225,8 +225,8 @@ ul li {
 
     /* Add padding so content isn't against the screen edges */
     body, .container, .main-content, .section {
-        padding-left: 1rem !important;
-        padding-right: 1rem !important;
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
     }
 
     .name {

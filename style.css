@@ -222,11 +222,19 @@ ul li {
 }
 
 @media (max-width: 480px) {
-  .name {
-    font-size: 2rem;
-  }
 
-  .section h2 {
-    font-size: 1.25rem;
-  }
+    /* Add padding so content isn't against the screen edges */
+    body, .container, .main-content, .section {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+
+    .name {
+        font-size: 2rem;
+    }
+
+    .section h2 {
+        font-size: 1.25rem;
+    }
 }
+
